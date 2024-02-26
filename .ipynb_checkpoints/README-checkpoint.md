@@ -22,7 +22,7 @@ Credit risk poses a classification problem that’s inherently imbalanced becaus
 
 * I imported the lending_data CSV file into a Pandas DataFrame, then created label sets y from the loan_status column and X from the remaining features of the DataFrame. I proceeded to split the label sets data (X, y) into training and testing datasets. I instantiated the logistic regression model and used the training data to fit the logistic regression model and made predictions using the testing data and predicted model. I also oversampled the training dataset using the RandomOverSampler function to fit the logistic regression model and evaluated the performances of both models to determine the accuracy in predicting both the 0 (healthy loans) and the 1 (high-risk loans).
 
-![Logistic Regression Model](https://1.bp.blogspot.com/-HKbBq_CeZz8/XluCouqSZtI/AAAAAAAABrk/eWnmV4M9-OQQDA4I9TGkJjq35C8iwS9kgCNcBGAsYHQ/s1600/mlintro.png)
+![Logistic Regression Model](https://miro.medium.com/max/1200/1*VhF3Ibprkk9DsMAyQZ20eg.jpeg)
 
 ## Machine learning model 1 (Logistic Regression)
 
@@ -48,7 +48,7 @@ Confusion matrix:
 avg / total       0.99      0.99      0.94      0.99      0.97      0.94     19384
 
 
-![Resampled Training Data](https://miro.medium.com/max/1200/1*VhF3Ibprkk9DsMAyQZ20eg.jpeg)
+![Resampled Training Data](https://1.bp.blogspot.com/-HKbBq_CeZz8/XluCouqSZtI/AAAAAAAABrk/eWnmV4M9-OQQDA4I9TGkJjq35C8iwS9kgCNcBGAsYHQ/s1600/mlintro.png)
 
 ## Machine learning model 2: (Resampled Training Data)
 
