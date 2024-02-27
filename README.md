@@ -8,12 +8,11 @@ Credit risk poses a classification problem that’s inherently imbalanced becaus
 
 * The lending activity data is sourced from a peer-to-peer lending services company and includes features such as loan sizes, interest rates, borrower income, number of accounts, derogatory marks, total debt, and loan status.
 
-* I utilize the loan status feature to initialize a variable y, splitting the values into 0 (healthy loans) and 1 (high-risk loans). The distribution of the loan_status variables is as follows:
+* I utilize the loan status feature to initialize a variable y, splitting the values into 0 (healthy loans) and 1 (high-risk loans). The distribution of the loan_status variables is as follows: 
 
-    loan_status:
-    0    75036
-    1     2500
-    Name: count, dtype: int64
+0:  75036,
+1:   2500,
+Name: count, dtype: int64
 
 * The steps involved in this machine learning process include:
     - Splitting the data into training and testing sets
@@ -32,7 +31,8 @@ For '0' (healthy loan), the model has high precision, recall, and F1-score, indi
 
 For '1' (high-risk loans), the model has slightly lower precision, recall, and F1-score compared to healthy loans, but they are still acceptable. The specificity is also very high, indicating the model effectively identifies high-risk loans with few false positives.
 
-Balanced accuracy score: 0.967989851522121
+Balanced accuracy score: 
+0.967989851522121
 
 Confusion matrix:
 [[18655   110]
@@ -44,7 +44,7 @@ Confusion matrix:
           0       1.00      0.99      0.94      1.00      0.97      0.94     18765
           1       0.84      0.94      0.99      0.89      0.97      0.93       619
 
-avg / total       0.99      0.99      0.94      0.99      0.97      0.94     19384
+avg / total:      0.99      0.99      0.94      0.99      0.97      0.94     19384
 
 
 ![Resampled Training Data](https://miro.medium.com/max/1200/1*VhF3Ibprkk9DsMAyQZ20eg.jpeg)
@@ -57,7 +57,8 @@ For Class 0 (healthy loans), the model effectively predicts healthy loans with v
 
 For Class 1 (high-risk loans), the model identifies high-risk loans with few false negatives.
 
-Balanced accuracy score: 0.9935981855334257
+Balanced accuracy score: 
+0.9935981855334257
 
 Confusion matrix:
 [[18646   119]
@@ -69,7 +70,7 @@ Confusion matrix:
           0       1.00      0.99      0.99      1.00      0.99      0.99     18765
           1       0.84      0.99      0.99      0.91      0.99      0.99       619
 
-avg / total       0.99      0.99      0.99      0.99      0.99      0.99     19384
+avg / total:      0.99      0.99      0.99      0.99      0.99      0.99     19384
 
 ## Summary
 
