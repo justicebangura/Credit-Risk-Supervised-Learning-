@@ -35,7 +35,6 @@ For '1' (high-risk loans), the model has slightly lower precision, recall, and F
 Balanced accuracy score: 0.967989851522121
 
 Confusion matrix:
-
 [[18655   110]
  [   36   583]]
 
