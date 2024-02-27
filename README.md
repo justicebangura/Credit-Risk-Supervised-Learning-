@@ -1,8 +1,6 @@
-# Module-12-challenge
+# Credit Risk Analysis Report
 
 ![Credit Report Analysis](https://cdn.merchantmaverick.com/wp-content/uploads/2018/08/bigstock-167517734-768x512.jpg)
-
-# Credit Risk Analysis Report
 
 Credit risk poses a classification problem that’s inherently imbalanced because healthy loans usually outnumber risky loans. In this analysis, I employ machine learning techniques such as RandomOverSampler and LogisticRegression to train and evaluate historical lending activity data, aiming to build a model capable of identifying the creditworthiness of borrowers.
 
@@ -31,8 +29,7 @@ For '0' (healthy loan), the model has high precision, recall, and F1-score, indi
 
 For '1' (high-risk loans), the model has slightly lower precision, recall, and F1-score compared to healthy loans, but they are still acceptable. The specificity is also very high, indicating the model effectively identifies high-risk loans with few false positives.
 
-Balanced accuracy score: 
-0.967989851522121
+Balanced accuracy score: 0.967989851522121
 
 Confusion matrix:
 [[18655   110]
@@ -57,8 +54,7 @@ For Class 0 (healthy loans), the model effectively predicts healthy loans with v
 
 For Class 1 (high-risk loans), the model identifies high-risk loans with few false negatives.
 
-Balanced accuracy score: 
-0.9935981855334257
+Balanced accuracy score: 0.9935981855334257
 
 Confusion matrix:
 [[18646   119]
@@ -71,6 +67,7 @@ Confusion matrix:
           1       0.84      0.99      0.99      0.91      0.99      0.99       619
 
 avg / total:      0.99      0.99      0.99      0.99      0.99      0.99     19384
+
 
 ## Summary
 

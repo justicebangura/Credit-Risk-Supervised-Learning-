@@ -1,19 +1,16 @@
-# Module-12-challenge
+# Credit Risk Analysis Report
 
 ![Credit Report Analysis](https://cdn.merchantmaverick.com/wp-content/uploads/2018/08/bigstock-167517734-768x512.jpg)
-
-# Credit Risk Analysis Report
 
 Credit risk poses a classification problem that’s inherently imbalanced because healthy loans usually outnumber risky loans. In this analysis, I employ machine learning techniques such as RandomOverSampler and LogisticRegression to train and evaluate historical lending activity data, aiming to build a model capable of identifying the creditworthiness of borrowers.
 
 * The lending activity data is sourced from a peer-to-peer lending services company and includes features such as loan sizes, interest rates, borrower income, number of accounts, derogatory marks, total debt, and loan status.
 
-* I utilize the loan status feature to initialize a variable y, splitting the values into 0 (healthy loans) and 1 (high-risk loans). The distribution of the loan_status variables is as follows:
+* I utilize the loan status feature to initialize a variable y, splitting the values into 0 (healthy loans) and 1 (high-risk loans). The distribution of the loan_status variables is as follows: 
 
-    loan_status:
-    0    75036
-    1     2500
-    Name: count, dtype: int64
+0:  75036,
+1:   2500,
+Name: count, dtype: int64
 
 * The steps involved in this machine learning process include:
     - Splitting the data into training and testing sets
@@ -44,7 +41,7 @@ Confusion matrix:
           0       1.00      0.99      0.94      1.00      0.97      0.94     18765
           1       0.84      0.94      0.99      0.89      0.97      0.93       619
 
-avg / total       0.99      0.99      0.94      0.99      0.97      0.94     19384
+avg / total:      0.99      0.99      0.94      0.99      0.97      0.94     19384
 
 
 ![Resampled Training Data](https://miro.medium.com/max/1200/1*VhF3Ibprkk9DsMAyQZ20eg.jpeg)
@@ -69,7 +66,8 @@ Confusion matrix:
           0       1.00      0.99      0.99      1.00      0.99      0.99     18765
           1       0.84      0.99      0.99      0.91      0.99      0.99       619
 
-avg / total       0.99      0.99      0.99      0.99      0.99      0.99     19384
+avg / total:      0.99      0.99      0.99      0.99      0.99      0.99     19384
+
 
 ## Summary
 
